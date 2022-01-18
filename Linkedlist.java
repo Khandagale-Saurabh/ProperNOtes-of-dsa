@@ -20,3 +20,17 @@ Q]Remove duplicate:
    rd=  removeFirst();
      if(size== 0|| reasultList.tail.data!=getFirst())
              resultList.addLast(rd);
+
+
+
+Q]Reverse Poineter [prev,curr, fwd]
+
+while(curr!=null)
+        Node fwd=curr.next;
+        curr.next=prev;
+        prev=curr;
+        curr=fwd
+* dont forget to interchange tail with head
+
+
+ 
